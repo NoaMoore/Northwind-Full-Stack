@@ -1,0 +1,13 @@
+.Menu {
+	display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+/* .active is a specific class for the route mechanism: */
+.Menu > .active {
+    color: green;
+    font-weight: bold;
+    font-family: Arial;
+}
